@@ -5,7 +5,7 @@ on:
 
 env:
     CLONE_COMMAND: git clone -b mt7986 --depth 1 https://github.com/padavanonly/immortalwrtARM
-    REPO_NAME: openwrt-21.02
+    REPO_NAME: immortalwrtARM
 
 jobs:
     build:
