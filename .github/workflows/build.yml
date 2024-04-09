@@ -4,8 +4,8 @@ on:
     workflow_dispatch:
 
 env:
-    CLONE_COMMAND: git clone -b mt7986 --depth 1 https://github.com/padavanonly/immortalwrtARM
-    REPO_NAME: immortalwrtARM
+    CLONE_COMMAND: git clone --depth=1 https://github.com/hanwckf/immortalwrt-mt798x.git
+    REPO_NAME: immortalwrt-mt798x
 
 jobs:
     build:
